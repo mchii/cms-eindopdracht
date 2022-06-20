@@ -36,6 +36,7 @@
 					while (have_posts()) {
 						the_post();
 						the_title('<h1>', '</h1>');
+						the_post_thumbnail('large');
 						the_content();
 					}
 				}

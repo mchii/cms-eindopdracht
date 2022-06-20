@@ -6,3 +6,4 @@ function mytheme_menu()
 add_action('init', 'mytheme_menu');
 
 add_theme_support('post-thumbnails');
+add_image_size('custom-size', 220, 180);
